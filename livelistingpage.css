@@ -1,0 +1,146 @@
+
+ #maindiv{
+    width:100% ; height: 1500px ; margin-top: 1%; display: inline-block; background-color:rgba(210, 237, 114, 0.774);
+}
+query{
+    height: 50px;
+}
+
+#form{
+    margin-top:1%;
+
+}
+#inpt{
+    height: 38px;
+    width: 29%;
+}
+button{
+    height: 30px;
+    width: 5%;
+}
+#filter{
+    width:20% ;height: 600px;border: 2px solid black;margin-top: 3%;margin-left: 2%;box-shadow: 2px 2px 3px black; float: left;
+}
+#filtert{
+    height: 40px; width: 100%;background-color: rgb(180, 226, 26); margin-top: -8%;
+}
+#filter1{
+    height:  170px;width: 96%; border: 1px solid black; margin: 2%;
+}
+
+#filter2{
+    height: 170px;width: 96%; border: 1px solid black; margin: 2%;
+}
+
+#filter3{
+    height: 170px;width: 96%; border: 1px solid black; margin: 2%;
+}
+.filterb{
+    margin-top: -8%;
+}
+.img{
+    width: 70%; height: 250px;border: 1px solid black; float:right; margin: 3%;
+}
+
+.price{
+    margin-top:-1% ;font-size: 25px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+@media screen and (max-width:1536px) {
+    body{
+        background-color: rosybrown;
+    }
+    
+}
+@media screen and (max-width:1176px){
+    #maindiv{
+        background-color: yellowgreen;
+    }
+
+}
+
+@media screen and (max-width:1062px){
+    button{
+        height: 30px;
+        width: 8%;
+    }
+    #maindiv{
+        background-color: rgb(22, 171, 102);
+    }
+    body{
+        background-color: rgb(202, 65, 65);
+    }
+
+}
+
+@media screen and (max-width:859px){
+    #filter{
+        width: 21% ;height: 600px;border: 2px solid black;margin-top: 3%;margin-left: 2%;box-shadow: 2px 2px 3px black; float: left;
+    }
+        .img{
+            width: 68%; height: 222px;border: 1px solid black; float:right; margin: 3%;
+        }
+        #maindiv{
+            background-color: rgb(60, 211, 58);     
+}
+#filter1{
+    height: 185px;
+}
+    }
+
+
+@media screen and (max-width:810px) {
+    #filter1{
+        height: 185px;
+    }
+    #maindiv{
+        background-color: rgb(16, 208, 211);
+
+}
+}
+
+
+@media screen and (max-width:690px){
+    #filter2{
+        height: 190px;width: 96%; border: 1px solid black; margin: 2%;
+    } 
+
+    #maindiv{
+        background-color: rgb(128, 62, 128);
+}
+}
+
+@media screen and (max-width:674px){
+
+    #filter2{
+        height: 198px;width: 96%; border: 1px solid black; margin: 2%;
+    } 
+    .price{
+        margin-top:-3% ;font-size: 21px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    #filter3{
+        height: 190px;width: 96%; border: 1px solid black; margin: 2%;
+    }
+#filter{
+    width:20% ;height: 650px;border: 2px solid black;margin-top: 3%;margin-left: 2%;box-shadow: 2px 2px 3px black; float: left;
+}
+
+
+}
+
+
+@media screen and (max-width:658px){
+    #filter1{
+        height:  195px;width: 96%; border: 1px solid black; margin: 2%;
+    }
+    #filter{
+        width:22% ;height: 650px;border: 2px solid black;margin-top: 3%;margin-left: 2%;box-shadow: 2px 2px 3px black; float: left;
+}
+#maindiv{
+    background-color: rgb(116, 128, 62);
+}
+button{
+    height: 30px;
+    width: 10%;
+}
+
